@@ -7,8 +7,7 @@ variable "aws_profile" {
 }
 
 variable "aws_region" {
-  description = "The AWS Region in which you want to deploy the resources"
-  default     = "us-east-1" 
+  description = "The AWS Region in which you want to deploy the resources" 
   type        = string
 }
 
